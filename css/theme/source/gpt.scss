@@ -1,0 +1,25 @@
+
+.word-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.unboxed {
+    padding: 1rem 0rem 1rem 0rem;
+    border: 0px solid transparent
+}
+
+.boxed {
+    padding: 1rem;
+    border: 2px solid rgb(92, 130, 143);
+    border-radius: 2px;
+}
+
+.italic {
+    font-style: italic;
+}
+
