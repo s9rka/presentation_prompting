@@ -75,22 +75,34 @@
               Meie tugevus ja ülesanne on krati toodud valikute vahel otsustada, kas ja kuidas neid rafineerida ja edasi tegutseda.
             </aside>
             <ul>
-              <strong>Keelekratt</strong>
+              <strong>Kratt</strong>
               <li class="fragment">
                 Teeb paljud automaatsed aeganõudvad korduvad tüütud ülesanded ära
               </li>
               <li class="fragment">Tekitab probleeme kui tähelepanuta jätta</li>
             </ul>
-            <img src="kratt.png" />
+            <img src="rehepapp.jpg" />
+          </section>
+          <section data-background-iframe="https://www.kratid.ee/mis-on-kratt"
+          data-background-interactive>
+        </section>
+          <section>
+            <ul>
+              <h2>Omadused</h2>
+              <li class="fragment salespoint">24/7 ligipääs infole ja seletustele</li>
+              <li class="fragment">Ülimalt suur arvutusvõimsus</li>
+              <li class="fragment salespoint">Personaliseeritud, rätseplahendus just sulle</li>
+            </ul>
+            
           </section>
           <section>
             <ul>
-              <h2>Võimed</h2>
-              <li class="fragment">24/7 ligipääs infole ja seletustele</li>
-              <li class="fragment">Personaliseeritud, sulle kohandatud</li>
-              <li class="fragment">Korduvad tüütud ülesanded, mustandite genereerimine</li>
+              <h2>Võimalused</h2>
+              <li class="fragment">Mustandite genereerimine</li>
+              <li class="fragment">'Kuivade' dokumentide kokkuvõte</li>
               <li class="fragment">Aitab mõtlemist lihvida - pakub alternatiive ja vastuargumente</li>
               <li class="fragment">Lahendus 'tühja lehe' probleemile</li>
+              <li class="fragment">Uute teemade õppimine</li>
             </ul>
           </section>
         </section>
@@ -99,7 +111,7 @@
             <ul class=>
               <h3>Kuidas uusi asju õppida?</h3>
               <img class="fragment" src="images/new_place.jpg" />
-              <p class="fragment">Uus valdkond = tundmatu paik</p>
+              <p class="fragment">Uus teema = tundmatu paik</p>
               
             </ul>
             <aside class="notes">Ja ma ei mõtle, et meil on ajus galerii, kus me salvestame ja võtame kaarte. Need kaardid on väga dünaamilised, ei pruugi igas olukorras meile saadaval olla, muutuvad ajas ja kohas jne.</aside>
@@ -110,7 +122,7 @@
               <img src="./gtamap.JPEG" />
                  <aside class="notes"> "individuals develop mental models of the systems and processes with which they interact"
                   Miks ma panin siia tavalise kaardi pildi? Sellepärast et mentaalsed mudelid täidavad sama eesmärki, mida maailma tähistav kaart - need on selleks, et paremini oma käitumist juhtida, et me teaksime kuhu minna, kuidas orienteeruda keskkonnas, et oma eesmärke optimaalselt täita</aside>
-              <p class="italic">Mental models</p>
+              <p class="fragment italic">Mental models</p>
           </section>
           <section>Füüsikaõpetaja kaardid füüsikast vs minu kaardid füüsikast</section>
           <section><div>Keelemudel tutvustab meile ümbrust ja aitab kaardistada</div>
@@ -122,21 +134,15 @@
           <section><h1>Parimad praktikad</h1></section>
           <section>
               <h3>Ole detailne ja spetsiifiline</h3>  
+              <aside class="notes">90% GPT suutlikkusest sõltub sellest kui täpselt ja detailselt sa ise tead mida tahad ja oskad seda väljendada</aside>
               <aside class="notes">Saad seda mida küsid. Mida paremini ja detailsemalt sa tead ja kirjeldad mida sa tahad, seda suurema tõenäosusega saad ka</aside>
               <aside class="notes">Kuidas siis ikkagi? Mõned näited</aside>
           </section>
           <section>
-            Väldi ebamääraseid sõnu nagu 'mõni', 'väga palju' jne
+            Väldi ebamääraseid sõnu nagu 'mõni', 'väga palju', 'suhteliselt' jne
+            <aside class="notes">Liiga palju ebamäärasust tähendab tavaliselt et sa ise väga hästi ei saa aru mida sa tahad</aside>
             <img class="fragment" src="./images/FluffyBad.png" />
             <img class="fragment" src="./images/FluffyGood.png"/>
-          </section>
-          <section>
-            Anna näiteid potentsiaalsetest vastustest <p class="italic">few-shot prompting</p>
-            <div class="r-stack">
-              <img class="fragment" src="./images/FewShotBad.png" />
-              <img class="fragment" src="./images/FewShotGood.png"/>
-            </div>
-            <aside class="notes">Vastuse kalibreerimine nii vormiliselt kui sisuliselt</aside>
           </section>
           <section>Eralda ja struktureeri
             <div class="r-stack">
@@ -145,6 +151,15 @@
             </div>
             <aside class="notes">Suurem tõenäosus et keelemudel saab sust aru, tuleb eriti kasuks pikema prompti puhul kui on mitmeid erinevaid kontekste ja referentstekste</aside>
           </section>
+          <section>
+            Suuna läbi näidete<p class="italic">few-shot prompting</p>
+            <div class="r-stack">
+              <img class="fragment" src="./images/FewShotBad.png" />
+              <img class="fragment" src="./images/FewShotGood.png"/>
+              <img class="fragment" src="./images/FewContentGood.png" />
+            </div>
+            <aside class="notes">Vastuse kalibreerimine nii vormiliselt kui sisuliselt</aside>
+          </section>  
           <section>
             Anna infot kus sa oled, mida sa tead, miks ja kuhu minna tahad
             <div class="r-stack">
@@ -167,12 +182,27 @@
               <img class="fragment" src="./images/StyleGood.png"/>
             </div>
           </section>
-          <section>Suhtle ja lase oma teadmisi kontrollida
+          <section>
+            <div class="r-stack">
+              <img class="fragment" src="images/convo/convo1.png"/>
+              <img class="fragment" src="images/convo/convo2.png"/>
+              <img class="fragment" src="images/convo/convo3.png"/>
+              <img class="fragment" src="images/convo/convo4.png"/>
+              <img class="fragment" src="images/convo/convo5.png"/>
+              <img class="fragment" src="images/convo/convo6.png"/>
+            </div>
+            
             <aside class="notes">Räägi uutest teemadest, et teadmisi kinnistada ja kontrollida. Aktiivne õppimine, sest moodustad lauseid uue teema kohta, aktiivselt tugevdad mälu selle kohta ja lood uusi seoseid.
               Vastuargumentide ja alternatiivide avastamine ja oma arvamuste lihvimine
             </aside>
           </section>
-          
+          <section>VS
+            <div class="r-stack">
+              <img class="fragment" src="images/convoBad.png"/>
+              <img class="fragment" src="images/maskedwiki.png"/>
+
+            </div>
+          </section>
         </section>
         <section>
           <section><h1>Keelemudelite kasutamise ohukohad</h1>
