@@ -15,8 +15,32 @@
   padding: 1rem;
   border: 2px solid rgb(92, 130, 143);
   border-radius: 2px;
+  font-size: smaller;
+  background-color: rgba(171, 203, 245, 0.02);
 }
 
 .italic {
   font-style: italic;
+}
+
+.things {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.small-boxed-desc {
+  font-size: 0.6rem;
+  padding: 2rem;
+  width: fit-content;
+  border: 2px solid rgb(92, 130, 143);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
